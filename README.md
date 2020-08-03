@@ -1,6 +1,6 @@
 # Propel2
 
-Propel2 is an open-source Object-Relational Mapping (ORM) for PHP.
+Propel2 is an open-source Object-Relational Mapping (ORM) for PHP 7 and up.
 
 [![Build Status](https://travis-ci.org/propelorm/Propel2.svg?branch=master)](https://travis-ci.org/propelorm/Propel2)
 [![Code Climate](https://codeclimate.com/github/propelorm/Propel2/badges/gpa.svg)](https://codeclimate.com/github/propelorm/Propel2)
@@ -24,6 +24,11 @@ Propel uses the following Symfony Components:
 Propel primarily relies on [**Composer**](https://github.com/composer/composer) to manage dependencies, but you
 also can use [ClassLoader](https://github.com/symfony/ClassLoader) (see the `autoload.php.dist` file for instance).
 
+<<<<<<< HEAD
+=======
+Propel2 is only supported on PHP 7 and up.
+
+>>>>>>> parent of 81fdf431... Cleanup outdated dependencies and min versions.
 
 ## Installation
 
@@ -32,8 +37,13 @@ Read the [Propel documentation](http://propelorm.org/documentation/01-installati
 
 ## Contribute
 
+<<<<<<< HEAD
 Everybody can contribute to Propel. Just fork it, and send Pull Requests.
 You have to follow [Propel Coding Standards](https://github.com/propelorm/Propel2/wiki/Coding-Standards) and provides unit
+=======
+Everybody can contribute to Propel2. Just fork it, and send Pull Requests.
+You have to follow [Propel2 Coding Standards](https://github.com/propelorm/Propel2/wiki/Coding-Standards) and provides unit 
+>>>>>>> parent of 81fdf431... Cleanup outdated dependencies and min versions.
 tests as much as possible. Also [check out the roadmap](https://github.com/propelorm/Propel2/wiki) to get an overview of what we are working on!
 
 Please see our [contribution guideline](http://propelorm.org/contribute.html). Thank you!
